@@ -1,0 +1,27 @@
+body
+{
+  background-color: pink;
+  color: blueviolet;
+}
+
+p
+{
+  color: black;
+}
+/*
+you just have to tell what part of the code you want to custom,
+like the p or the h1, and edit directly the properties,
+the color, the background, the size, ect...
+*/
+
+div
+{
+  background-color: #a7dbe3;
+  width: 1000px;
+}
+
+span
+{
+  font-weight: bold;
+  font-size: 25px;
+}
