@@ -14,10 +14,36 @@ like the p or the h1, and edit directly the properties,
 the color, the background, the size, ect...
 */
 
-div
+.top
 {
   background-color: #a7dbe3;
   width: 1000px;
+}
+
+/*
+class and the properties coming with it,
+can work with every tag.
+*/
+
+.bottom
+{
+  background-color: red;
+  width: 1000px;
+}
+
+#first
+{
+  font-size: 15px;
+}
+
+/*
+id and the properties coming with it, it works like class,
+but you can only have one type of id per page.
+*/
+
+#second
+{
+  font-size: 20px;
 }
 
 span
