@@ -51,3 +51,25 @@ span
   font-weight: bold;
   font-size: 25px;
 }
+
+/*
+CSS box model under.
+
+Margin : tell the size around the box or a part of it where nothing can be put,
+so its basically creating a blank space around my box.
+Border : got 3 properties that you can change : width, color and style.
+Padding : same as Margin but inside the box, and with the background color.
+*/
+
+.box
+{
+  background: #a7dbe3;
+  width: 400px;
+  margin-left : 1000px;
+  border-color: whitesmoke;
+  border-width: 5px;
+  border-style: solid;
+  border-left: 5px solid blue;
+  padding: 50px;
+}
+
